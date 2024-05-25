@@ -1,0 +1,41 @@
+[33mcommit 9233a6b9f56539de3242aa499f49e2135514975b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Daniels <d.jaunarajsjanvaris@gmail.com>
+Date:   Fri May 24 09:20:50 2024 +0300
+
+    Tiek veidots otrs (galvenais) logs
+
+[33mcommit 3ab1a5a30a0fe0ac18e9903f55dec83e117392d9[m
+Author: Daniels <d.jaunarajsjanvaris@gmail.com>
+Date:   Wed May 22 16:13:03 2024 +0300
+
+    Izveidotas pilnīgi funkcionējošs starta logs
+
+[33mcommit b049c76db5d0b37f098f1132a25792eb0f22a952[m
+Author: Daniels <d.jaunarajsjanvaris@gmail.com>
+Date:   Wed May 22 15:53:55 2024 +0300
+
+    Izveidotas sākuma ekrāna funkcijas
+
+[33mcommit e8a1527278cedecc7292e635930f74e015fe5595[m
+Author: Daniels <d.jaunarajsjanvaris@gmail.com>
+Date:   Wed May 22 14:53:35 2024 +0300
+
+    Pievienotas pogas sākuma ekrānam
+
+[33mcommit 8789fc2568488997bcbcd87d89ef1aebce275e6f[m
+Author: Daniels <d.jaunarajsjanvaris@gmail.com>
+Date:   Tue May 21 15:49:13 2024 +0300
+
+    Versionēšana 2
+
+[33mcommit f3cb1e395ab60a6edc34d3d2c440545511df3cf4[m
+Author: Daniels <d.jaunarajsjanvaris@gmail.com>
+Date:   Tue May 21 15:42:51 2024 +0300
+
+    Sākta projekta versionēšana
+
+[33mcommit 46d0a67604428122a8f3e3f2d7b33e4cfa685364[m
+Author: DanielsJJ <104234211+DJaJa0@users.noreply.github.com>
+Date:   Tue May 21 14:44:23 2024 +0300
+
+    Initial commit
