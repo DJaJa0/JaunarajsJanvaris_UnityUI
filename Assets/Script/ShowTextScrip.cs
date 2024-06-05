@@ -22,7 +22,7 @@ public class ShowTextScript : MonoBehaviour
             int currentYear = DateTime.Now.Year;
             int age = currentYear - year;
 
-            displayField.text = $"{greetings[randomIndex]}{name.ToLower()}! Supervaronis ir {age} gadus vecs!";
+            displayField.text = $"{greetings[randomIndex]}{name.ToLower()}! Varonis ir {age} gadus vecs!";
         }
         else
         {
