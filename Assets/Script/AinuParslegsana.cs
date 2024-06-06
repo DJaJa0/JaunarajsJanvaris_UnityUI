@@ -12,6 +12,12 @@ public class AinuParslegsana : MonoBehaviour
         SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
 
+    public void UzSakumaEkranu()
+    {
+        
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
+    }
+
     public void apturet()
     {
         Application.Quit();
