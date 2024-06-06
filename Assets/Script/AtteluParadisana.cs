@@ -6,12 +6,15 @@ using UnityEngine.UI; // Pievienojiet šo rindu
 public class AtteluParadisana : MonoBehaviour
 {
     public GameObject mainigaisAttels;
+    public Text aprakstaLogs;
     public Sprite[] atteluMasivs;
+    public string[] apraksts;
+    
 
     public void izkritosais(int skaitlis)
     {
         // Pārbaudiet, vai mainigaisAttels nav null
-        if (mainigaisAttels != null)
+        if (mainigaisAttels != null) 
         {
             Image imageComponent = mainigaisAttels.GetComponent<Image>();
             
@@ -19,6 +22,7 @@ public class AtteluParadisana : MonoBehaviour
             if (imageComponent != null && atteluMasivs != null && skaitlis >= 0 && skaitlis < atteluMasivs.Length)
             {
                 imageComponent.sprite = atteluMasivs[skaitlis];
+                aprakstaLogs.text = apraksts[skaitlis];
             }
             else
             {
@@ -31,4 +35,3 @@ public class AtteluParadisana : MonoBehaviour
         }
     }
 }
-
