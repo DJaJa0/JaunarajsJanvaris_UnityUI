@@ -9,6 +9,15 @@ public class ToggleCategoryVisibility : MonoBehaviour
     public GameObject[] HatsGroup;
     public GameObject[] ShirtsGroup;
 
+    void Start()
+    {
+        // Set all groups to inactive at the start
+        SetVisibility(PantsGroup, false);
+        SetVisibility(BootsGroup, false);
+        SetVisibility(HatsGroup, false);
+        SetVisibility(ShirtsGroup, false);
+    }
+
     public void TogglePants(bool isVisible)
     {
         SetVisibility(PantsGroup, isVisible);
