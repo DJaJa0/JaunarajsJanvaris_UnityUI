@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; // Pievienojiet šo rindu
+using UnityEngine.UI; 
 
 public class AtteluParadisana : MonoBehaviour
 {
@@ -13,12 +13,12 @@ public class AtteluParadisana : MonoBehaviour
 
     public void izkritosais(int skaitlis)
     {
-        // Pārbaudiet, vai mainigaisAttels nav null
+        
         if (mainigaisAttels != null) 
         {
             Image imageComponent = mainigaisAttels.GetComponent<Image>();
             
-            // Pārbaudiet, vai atteluMasivs ir ne tukšs un vai skaitlis ir derīgs
+            
             if (imageComponent != null && atteluMasivs != null && skaitlis >= 0 && skaitlis < atteluMasivs.Length)
             {
                 imageComponent.sprite = atteluMasivs[skaitlis];
